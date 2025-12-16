@@ -1,0 +1,170 @@
+[
+  {
+    "id": "Q1",
+    "max_marks": 6,
+    "word_limit": 60,
+    "penalty_per_word": 0.1,
+    "keywords": [
+      {
+        "text": "doctrine of lapse",
+        "marks": 1
+      },
+      {
+        "text": "greased cartridges",
+        "marks": 1
+      },
+      {
+        "text": "annexation of indian states",
+        "marks": 1
+      },
+      {
+        "text": "heavy taxation",
+        "marks": 1
+      },
+      {
+        "text": "religious sentiments",
+        "marks": 1
+      },
+      {
+        "text": "british policies",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "Q2",
+    "max_marks": 6,
+    "word_limit": 60,
+    "penalty_per_word": 0.1,
+    "keywords": [
+      {
+        "text": "non violence",
+        "marks": 1
+      },
+      {
+        "text": "civil disobedience",
+        "marks": 1
+      },
+      {
+        "text": "non cooperation movement",
+        "marks": 1
+      },
+      {
+        "text": "salt satyagraha",
+        "marks": 1
+      },
+      {
+        "text": "quit india movement",
+        "marks": 1
+      },
+      {
+        "text": "mass mobilization",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "Q3",
+    "max_marks": 5,
+    "word_limit": 50,
+    "penalty_per_word": 0.1,
+    "keywords": [
+      {
+        "text": "nationwide mass movement",
+        "marks": 1
+      },
+      {
+        "text": "boycott of british institutions",
+        "marks": 1
+      },
+      {
+        "text": "swadeshi movement",
+        "marks": 1
+      },
+      {
+        "text": "national unity",
+        "marks": 1
+      },
+      {
+        "text": "political awareness",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "Q4",
+    "max_marks": 5,
+    "word_limit": 50,
+    "penalty_per_word": 0.1,
+    "keywords": [
+      {
+        "text": "do or die",
+        "marks": 1
+      },
+      {
+        "text": "mass protests",
+        "marks": 1
+      },
+      {
+        "text": "arrest of leaders",
+        "marks": 1
+      },
+      {
+        "text": "weakening of british authority",
+        "marks": 1
+      },
+      {
+        "text": "immediate independence",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "Q5",
+    "max_marks": 5,
+    "word_limit": 50,
+    "penalty_per_word": 0.1,
+    "keywords": [
+      {
+        "text": "indian independence act 1947",
+        "marks": 1
+      },
+      {
+        "text": "end of british rule",
+        "marks": 1
+      },
+      {
+        "text": "partition of india and pakistan",
+        "marks": 1
+      },
+      {
+        "text": "communal violence",
+        "marks": 1
+      },
+      {
+        "text": "mass migration",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "Q1",
+    "max_marks": 20.0,
+    "word_limit": 20,
+    "penalty_per_word": 1.0,
+    "keywords": [
+      {
+        "text": "harappan civilization",
+        "marks": 2.0
+      },
+      {
+        "text": "grid pattern",
+        "marks": 2.0
+      },
+      {
+        "text": "drainage system",
+        "marks": 2.0
+      }
+    ]
+  }
+]
