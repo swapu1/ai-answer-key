@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report - {{ student }}</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: yellow;
+            padding: 30px;
+        }
+
+	h2{
+	    font-family: Garamond;
+	    font-size: 30px;
+	}
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+	    font-family: Helvetica;
+            white-space: pre-wrap;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        }
+        a {
+            display: inline-block;
+            margin-bottom: 15px;
+            text-decoration: none;
+            color: #2c5cc5;
+        }
+    </style>
+</head>
+<body>
+
+<a href="/">← Back</a>
+
+<h2>Report for {{ student }}</h2>
+
+<div class="box">
+{{ report }}
+</div>
+
+</body>
+</html>

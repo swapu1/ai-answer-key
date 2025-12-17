@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rubric Builder</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            padding: 40px;
+        }
+        .box {
+            background: white;
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+        }
+        h2 {
+            text-align: center;
+            color: #2a5298;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 15px 0;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #2a5298;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .msg {
+            text-align: center;
+            margin-top: 15px;
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Rubric Builder</h2>
+
+    <form method="post">
+
+        <label>Question ID</label>
+        <input type="text" name="qid" placeholder="Q1" required>
+
+        <label>Max Marks</label>
+        <input type="number" name="max_marks" required>
+
+        <label>Word Limit</label>
+        <input type="number" name="word_limit" required>
+
+        <label>Penalty per Missing Word</label>
+        <input type="number" step="0.1" name="penalty" required>
+
+        <label>Keywords (one per line: keyword : marks)</label>
+        <textarea name="keywords" rows="6" required>
+harappan civilization : 2
+grid pattern : 2
+drainage system : 2
+        </textarea>
+
+        <button type="submit">Save Rubric</button>
+    </form>
+
+    {% if message %}
+        <p class="msg {{ 'error' if 'required' in message else '' }}">{{ message }}</p>
+    {% endif %}
+</div>
+
+</body>
+</html>
+
+
